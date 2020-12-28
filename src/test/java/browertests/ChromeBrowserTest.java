@@ -2,10 +2,8 @@ package browertests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.net.*;
 
@@ -32,6 +30,8 @@ public class ChromeBrowserTest {
 		driver.manage().window().maximize();
 		driver.get("https://google.com");
 		driver.findElement(By.name("q")).sendKeys("Azhar");
+		Thread.sleep(5000);
+		driver.findElement(By.name("q")).sendKeys("Loves Saba");
 		Thread.sleep(5000);
 		driver.quit();
 	}
