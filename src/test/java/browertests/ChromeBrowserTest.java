@@ -33,6 +33,8 @@ public class ChromeBrowserTest {
 		Thread.sleep(5000);
 		driver.findElement(By.name("q")).sendKeys("Loves Saba");
 		Thread.sleep(5000);
+		driver.findElement(By.name("q")).sendKeys("Selenium");
+		Thread.sleep(5000);
 		driver.quit();
 	}
 
