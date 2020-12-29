@@ -26,8 +26,7 @@ public class ChromeBrowserTest {
 		caps.setCapability("name", "testgmailkhan1's First Test");
 //	 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/"+"chromedriver.exe");
 //		driver = new ChromeDriver();
-		//this is to check on schedule.
-		//new commit
+      //this is new line.
 		driver = new RemoteWebDriver(new URL(URL), caps);
 		driver.manage().window().maximize();
 		driver.get("https://google.com");
