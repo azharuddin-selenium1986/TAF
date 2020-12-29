@@ -4,10 +4,8 @@
 name: Execute Selenium Test On Schedule
 
 on: 
-  push:
-  pull_request:
   schedule:
-    - cron:  '07 19 * * *'
+    - cron:  '15 19 * * *'
 
 jobs:
   build:
