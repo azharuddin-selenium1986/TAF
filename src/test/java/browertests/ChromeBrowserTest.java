@@ -18,7 +18,6 @@ public class ChromeBrowserTest {
 	public void testcase1() throws InterruptedException, MalformedURLException {
 
 		DesiredCapabilities caps = new DesiredCapabilities();
-
 		caps.setCapability("os", "Windows");
 		caps.setCapability("os_version", "10");
 		caps.setCapability("browser", "Chrome");
