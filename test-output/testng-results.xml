@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19832" started-at="2021-02-04T22:14:19 IST" finished-at="2021-02-04T22:14:39 IST">
+  <suite name="Default suite" duration-ms="3325" started-at="2021-02-07T08:23:25 IST" finished-at="2021-02-07T08:23:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19832" started-at="2021-02-04T22:14:19 IST" finished-at="2021-02-04T22:14:39 IST">
-      <class name="browertests.EdgeBrowserTest">
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:browertests.EdgeBrowserTest@26aa12dd]" name="testcase2" duration-ms="19760" started-at="2021-02-04T22:14:19 IST" finished-at="2021-02-04T22:14:39 IST">
+    <test name="Default test" duration-ms="3325" started-at="2021-02-07T08:23:25 IST" finished-at="2021-02-07T08:23:28 IST">
+      <class name="practice.AddAttachmentInJIRAExample">
+        <test-method status="PASS" signature="validateCustomerAPIWithValidSecretKey()[pri:0, instance:practice.AddAttachmentInJIRAExample@2c039ac6]" name="validateCustomerAPIWithValidSecretKey" duration-ms="3282" started-at="2021-02-07T08:23:25 IST" finished-at="2021-02-07T08:23:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase2 -->
-      </class> <!-- browertests.EdgeBrowserTest -->
+        </test-method> <!-- validateCustomerAPIWithValidSecretKey -->
+      </class> <!-- practice.AddAttachmentInJIRAExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
