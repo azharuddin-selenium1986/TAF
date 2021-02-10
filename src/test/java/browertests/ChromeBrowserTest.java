@@ -9,7 +9,6 @@ import java.net.*;
 
 public class ChromeBrowserTest {
 	private static WebDriver driver;
-
 	public static final String USERNAME = "testgmailkhan1";
 	public static final String AUTOMATE_KEY = "C4shbTCqwRpvE6aAdbxt";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
@@ -18,7 +17,6 @@ public class ChromeBrowserTest {
 	public void testcase1() throws InterruptedException, MalformedURLException {
 
 		DesiredCapabilities caps = new DesiredCapabilities();
-
 		caps.setCapability("os", "Windows");
 		caps.setCapability("os_version", "10");
 		caps.setCapability("browser", "Chrome");

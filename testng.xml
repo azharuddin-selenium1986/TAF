@@ -6,9 +6,4 @@
       <class name="browertests.ChromeBrowserTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test2">
-    <classes>
-      <class name="browertests.EdgeBrowserTest"/>
-    </classes>
-  </test> <!-- Test -->
 </suite> <!-- Suite -->
